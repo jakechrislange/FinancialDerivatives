@@ -123,13 +123,13 @@ public class InterestRateSwap {
         System.out.println("Hello! Welcome to the interest rate swap. I will help find your fixed"
             + " rate if you answer a few questions for me first!");
 
-        System.out.print("How whole years is the swap?");
+        System.out.print("How many whole years is the swap?");
         
         do {
-        lengthOfSwap = scan.nextInt();
-        if (lengthOfSwap < 1) {
-            System.out.println("Enter a positive number of years");
-        }
+            lengthOfSwap = scan.nextInt();
+            if (lengthOfSwap < 1) {
+                System.out.println("Enter a positive number of years");
+            }
         }while (lengthOfSwap < 1);
         
         do {
