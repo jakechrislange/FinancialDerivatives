@@ -15,9 +15,7 @@ public class InterestRateSwap {
      * This method calculates one year forward rates from spot rates.
      * 
      * @param spotRates a linked list containing given spot rates for the swap.
-     * 
      * @param lengthOfSwap the agreed number of years for the swap.
-     * 
      * @return forwardRates a linked list containing the calculated forward rates.
      */
     public static LinkedList<Double> calcForwardRates(LinkedList<Double> spotRates,
@@ -41,11 +39,8 @@ public class InterestRateSwap {
      * This method calculates the fixed rate when there is a level notional amount.
      * 
      * @param swapRates a linked list containing given spot rates for the swap.
-     * 
      * @param lengthOfSwap the agreed number of years for the swap.
-     * 
      * @param forwardRates a linked list containing the calculated forward rates.
-     * 
      * @return fixedRate the calculated fixed rate for the interest rate swap.
      */
     public static double calcForLevel(LinkedList<Double> swapRates, int lengthOfSwap,
@@ -77,13 +72,9 @@ public class InterestRateSwap {
      * This method calculates the fixed rate when there is a varying notional amount.
      * 
      * @param swapRates a linked list containing given spot rates for the swap.
-     * 
      * @param @varyingNotionals a linked list containing the varying notional amounts.
-     * 
      * @param forwardRates a linked list containing the calculated forward rates.
-     * 
      * @param lengthOfSwap the agreed number of years for the swap.
-     * 
      * @return fixedRate the calculated fixed rate for the interest rate swap.
      */
     public static double calcForVarying(LinkedList<Double> swapRates,
