@@ -123,7 +123,6 @@ public class InterestRateSwap {
         System.out.println("Hello! Welcome to the interest rate swap. I will help find your fixed"
             + " rate if you answer a few questions for me first!");
 
-        
         System.out.print("How whole years is the swap?");
         
         do {
